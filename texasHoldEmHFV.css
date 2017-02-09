@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+font-family: Lora;
+padding-top: 0.75em;
+overflow-y: hidden;
+}
+
+#title {
+font-size: 35px;
+margin-bottom: 0;
+}
+
+#primaryLine {
+width: 75em;
+height: 0.075em;
+background-color: black;
+border-radius: 500px;
+}
+
+#numberOfHands, #number {
+color: #5c5d60;
+display: inline-block;
+margin-bottom: 1em;
+}
+
+#numberOfHands {
+margin-left: 3.5em;
+}
+
+#number {
+position: absolute;
+}
+
+.box {
+width: 8em;
+border: 2px solid black;
+display: inline-block;
+font-size: 14px;
+margin: 0.5em;
+margin-bottom: -3em;
+padding-top: 1em;
+}
+
+#noPairBar, #onePairBar, #twoPairBar, #threeOfAKindBar, #straightBar, #flushBar, #fullHouseBar, #fourOfAKindBar, #straightFlushBar, #royalFlushBar {
+width: 2em;
+background-color: #0fdb20;
+margin-left: 3.074em;
+margin-right: 3.074em;
+margin-top: 0.1em;
+vertical-align: top;
+display: inline-block;
+}
